@@ -434,13 +434,7 @@ const siteData = {
       { text: "Confidence.", highlight: true },
     ],
     heroSubtitle: "Our reputation is built one relationship at a time. Here is what our clients say about working with Quest.",
-    ratingBreakdown: [
-      { stars: 5, count: 32 },
-      { stars: 4, count: 8 },
-      { stars: 3, count: 2 },
-      { stars: 2, count: 0 },
-      { stars: 1, count: 0 },
-    ],
+    ratingBreakdown: { 5: 32, 4: 8, 3: 2, 2: 0, 1: 0 },
     items: [
       { name: "Tawanda Nyamukapa", role: "Business Owner", text: "Quest turned my scattered investments into a coherent portfolio. In three years, my net worth has grown by 45%. Their advice on offshore diversification was the best financial decision I ever made.", rating: 5, date: "1 month ago", project: "Wealth Management", avatar: "https://lh3.googleusercontent.com/a/default-user=s120-c" },
       { name: "Grace Mudimu", role: "Retired Executive", text: "The retirement planning team gave me genuine peace of mind. I know exactly what my income will look like for the next 25 years. That level of clarity is priceless.", rating: 5, date: "1 month ago", project: "Retirement Solutions", avatar: "https://lh3.googleusercontent.com/a/default-user=s120-c" },
