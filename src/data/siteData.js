@@ -488,13 +488,65 @@ const siteData = {
       { iconName: "GraduationCap", title: "CFA Sponsorship", desc: "Full exam fee coverage and study leave for CFA, CFP, and other professional designations." },
       { iconName: "Heart", title: "Health & Wellness", desc: "Comprehensive medical aid, gym membership, and mental health support." },
     ],
-    openPositions: [
-      { title: "Investment Analyst", department: "Wealth Management", type: "Full-time", location: "Harare" },
-      { title: "Client Relationship Manager", department: "Advisory", type: "Full-time", location: "Harare" },
+    positions: [
+      {
+        id: 1,
+        title: "Investment Analyst",
+        department: "Wealth Management",
+        type: "Full-Time",
+        location: "Harare",
+        description:
+          "Conduct equity research, build financial models, and support portfolio managers with investment recommendations. Analyse ZSE and VFEX listed companies and macroeconomic trends.",
+        requirements: [
+          "Degree in Finance, Economics, or Accounting",
+          "CFA Level 1 passed or in progress",
+          "Strong financial modelling and Excel skills",
+          "Knowledge of Zimbabwe's capital markets",
+          "Analytical mindset with strong written communication",
+        ],
+      },
+      {
+        id: 2,
+        title: "Client Relationship Manager",
+        department: "Advisory",
+        type: "Full-Time",
+        location: "Harare",
+        description:
+          "Manage a portfolio of high-net-worth and corporate clients. Conduct portfolio reviews, onboard new clients, and ensure every client receives proactive, personalised financial guidance.",
+        requirements: [
+          "3+ years in financial services or wealth management",
+          "Strong interpersonal and presentation skills",
+          "Understanding of investment products and financial planning",
+          "CFA or CFP designation preferred",
+          "Existing network in Zimbabwe's professional community is a plus",
+        ],
+      },
+      {
+        id: 3,
+        title: "Corporate Finance Associate",
+        department: "Corporate Finance",
+        type: "Full-Time",
+        location: "Harare",
+        description:
+          "Support M&A transactions, capital raising, and corporate advisory engagements. Prepare financial models, due diligence reports, and investor presentations.",
+        requirements: [
+          "Degree in Finance, Accounting, or Economics",
+          "2+ years in corporate finance, investment banking, or Big 4 advisory",
+          "Advanced financial modelling and valuation skills",
+          "Strong attention to detail and ability to work under pressure",
+          "Excellent written and verbal communication",
+        ],
+      },
     ],
-    ctaTitle: "Your Quest Starts Here",
-    ctaSubtitle: "Send your CV and a cover letter telling us why finance matters to you.",
-    ctaCta: "Apply Now",
+    generalApplicationTitle: "Your Quest Starts Here",
+    generalApplicationSubtitle:
+      "Send your CV and a cover letter telling us why finance matters to you. We are always looking for exceptional talent.",
+    generalApplicationCta: "Apply Now",
+  },
+  footer: {
+    description:
+      "Premier financial advisory firm delivering wealth management, investment planning, and corporate finance solutions across Zimbabwe and Southern Africa.",
+    copyright: "Quest Financial Services (Pvt) Ltd",
   },
 };
 
