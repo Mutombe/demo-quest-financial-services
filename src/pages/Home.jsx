@@ -141,7 +141,7 @@ function HeroSection() {
                 className={`font-heading font-bold leading-[0.88] tracking-tight ${
                   word === 'EXPERTISE.' ? 'text-gold-500' : 'text-white'
                 }`}
-                style={{ fontSize: 'clamp(2.5rem, 10vw, 8rem)' }}
+                style={{ fontSize: 'clamp(2.5rem, 7vw, 4.5rem)' }}
               >
                 {word}
               </h1>
@@ -295,7 +295,7 @@ function AboutSplit() {
             <div className="relative">
               <div className="overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1507679799987-c73b1c5a5f46?w=800"
+                  src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800"
                   alt="Quest Financial boardroom consultation"
                   className="w-full aspect-[4/5] object-cover object-center"
                   loading="lazy"
@@ -340,9 +340,9 @@ function ServicesGrid() {
 
   const serviceImages = [
     'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800',
-    'https://images.unsplash.com/photo-1554224155-8d04cb21cd6e?w=800',
+    'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800',
     'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800',
-    'https://images.unsplash.com/photo-1507679799987-c73b1c5a5f46?w=800',
+    'https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800',
     'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800',
     'https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=800',
   ];
@@ -445,8 +445,8 @@ function CaseStudyGallery() {
 
   const cases = [
     { src: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600', caption: 'Mining Corp Portfolio — $12M' },
-    { src: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6e?w=600', caption: 'SME Tax Programme' },
-    { src: 'https://images.unsplash.com/photo-1507679799987-c73b1c5a5f46?w=600', caption: 'Telecoms M&A Advisory' },
+    { src: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600', caption: 'SME Tax Programme' },
+    { src: 'https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=600', caption: 'Telecoms M&A Advisory' },
     { src: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600', caption: 'Family Office Structuring' },
     { src: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600', caption: 'Agricultural Export Audit' },
     { src: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=600', caption: 'FinTech Series A — $3M' },
@@ -465,7 +465,7 @@ function CaseStudyGallery() {
             <div className="w-10 h-[2px] bg-gold-500 mb-6" />
             <h2
               className="font-heading font-bold text-white leading-[0.92]"
-              style={{ fontSize: 'clamp(2.5rem, 6vw, 5rem)' }}
+              style={{ fontSize: 'clamp(2.5rem, 7vw, 4.5rem)' }}
             >
               OUR <span className="text-gold-500">IMPACT</span>
             </h2>
@@ -783,7 +783,7 @@ function CTASection() {
           viewport={{ once: true, margin: '-80px' }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="font-heading font-bold text-white leading-[0.88] mb-8" style={{ fontSize: 'clamp(2.5rem, 8vw, 7rem)' }}>
+          <h2 className="font-heading font-bold text-white leading-[0.88] mb-8" style={{ fontSize: 'clamp(2.5rem, 7vw, 4.5rem)' }}>
             SECURE YOUR<br />
             <span className="text-gold-500">FINANCIAL FUTURE.</span>
           </h2>
